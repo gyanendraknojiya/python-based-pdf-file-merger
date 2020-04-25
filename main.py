@@ -10,6 +10,6 @@ for i in range(number_page):
     page = source_file.getPage(i)
     page.mergePage(watermark_file.getPage(0))
     output.addPage(page)
-
+#dhukyo
 with open('wmfile.pdf', 'wb') as file:
     output.write(file)
